@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        a {
+            text-decoration: none;
+            color: rgba(255, 0, 0, 0.822);
+        }
+
+        a:visited {
+            color: rgb(197, 6, 6);
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        a::after {
+            content: ' ←';
+        }
+
+        a::before {
+            content: '→ ';
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Utilizando Pseudo-Classes e Pseudo-Elementos nos Links</h1>
+    <ul>
+        <li><a href="https://www.instagram.com/" target="_blank">Link do Site do Instagram</a></li>
+        <li><a href="https://www.facebook.com/" target="_blank">Link do Site do Facebook</a></li>
+        <li><a href="https://www.youtube.com/" target="_blank">Link do Site do Youtube</a></li>
+        <li><a href="https://www.google.com/" target="_blank">Link do Site do Google</a></li>
+        <li><a href="https://twitter.com/" target="_blank">Link do Site do Twitter</a></li>
+    </ul>
+</body>
+</html>

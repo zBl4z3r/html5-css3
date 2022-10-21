@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+body {
+    background-color: #F7E843;
+}
+
+h1 {
+    color: #777024;
+}
+
+#Principal {
+    text-align: center;
+    background-color: #D1C438;
+    color: #6B651D;
+}
+
+.Secundario {
+    text-align: left;
+    background-color: #c9bb21;
+    color: #867b01;
+}
