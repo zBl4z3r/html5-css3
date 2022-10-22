@@ -1,0 +1,106 @@
+@charset "UTF-8";
+
+    @import url('https://fonts.googleapis.com/css2?family=Passion+One&family=Sriracha&display=swap');    
+
+    :root {
+        --fonte1: 'Passion One', cursive;
+        --fonte2: 'Sriracha', cursive;
+        --fonte3: 'Verdana', 'Arial', 'Helvetica', 'sans-serif';
+        --cor1: black;
+        --cor2: white;
+
+    }
+
+    body {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    header {
+        background-color: black;
+        color: white;
+        text-align: center;
+        padding: 0px 0px 20px 0px;
+        text-indent: 10px;
+    }
+
+    header > h1 {
+        font-family: var(--fonte1);
+        font-size: 192px;
+        font-variant: small-caps;
+        padding-top: 50px;
+        margin: 0px
+    }
+
+    h1:hover {
+        text-decoration: underline;
+    }
+
+    header > p {
+        padding-bottom: 15px;
+        margin-top: 0px;
+        font-family: var(--fonte3);
+    }
+
+    strong {
+        text-decoration: none;
+        color: white;
+    }
+
+    strong:hover {
+        text-decoration: underline;
+    }
+
+    main {
+        padding-left: 25px;
+    }
+
+    .Classe1 {
+        padding-top: 36px;
+        color: var(--cor1);
+        font-family: var(--fonte2);
+        font-size: 67px;
+    }
+
+    .Classe2 {
+        color: var(--cor2);
+        font-family: var(--fonte2);
+        font-size: 67px;
+        background-color: rgba(0, 0, 0, 0.800);
+        width: 790px;
+        }
+
+    .Classe3 {
+        color: var(--cor1);
+        font-family: var(--fonte2);
+        font-size: 67px;
+        }
+
+    .Classe4 {
+        color: var(--cor2);
+        font-family: var(--fonte2);
+        font-size: 67px;
+        background-color: rgba(0, 0, 0, 0.932);
+        width: 800px;
+            }
+
+    .Classe5 {
+        color: var(--cor1);
+        font-family: var(--fonte2);
+        font-size: 67px;
+        margin-bottom: 200px;
+        }
+
+    footer {
+        color: white;
+        font-family: var(--fonte3);
+        background-color: black;
+        text-align: center;
+        padding: 1px 0px 1px 0px;
+    }
+
+    a {
+        color: white;
+        text-decoration: none;
+        font-weight: 900;
+    }
