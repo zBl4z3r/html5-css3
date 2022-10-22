@@ -14,6 +14,7 @@
     body {
         margin: 0px;
         padding: 0px;
+        min-height: 100vh;
     }
 
     header {
@@ -25,8 +26,9 @@
     }
 
     header > h1 {
+        
         font-family: var(--fonte1);
-        font-size: 192px;
+        font-size: 10vw;
         font-variant: small-caps;
         padding-top: 50px;
         margin: 0px
@@ -40,6 +42,7 @@
         padding-bottom: 15px;
         margin-top: 0px;
         font-family: var(--fonte3);
+        font-size: -8vw;
     }
 
     strong {
@@ -51,45 +54,41 @@
         text-decoration: underline;
     }
 
-    main {
+    section {
         padding-left: 25px;
     }
 
-    .Classe1 {
+    section > p {
         padding-top: 36px;
         color: var(--cor1);
         font-family: var(--fonte2);
         font-size: 67px;
+        font-size: 3vw;
     }
 
-    .Classe2 {
-        color: var(--cor2);
-        font-family: var(--fonte2);
-        font-size: 67px;
-        background-color: rgba(0, 0, 0, 0.800);
-        width: 790px;
+    .Imagem > p {
+        background-color: rgba(0, 0, 0, 0.70);
+        color: white;
+        display: inline-block;
+        padding: 5px;
         }
 
-    .Classe3 {
-        color: var(--cor1);
-        font-family: var(--fonte2);
-        font-size: 67px;
-        }
+    #Imagem1 {
+        background-image: url('../imagens/background001.jpg');
+        background-size: cover;
+        background-position: right center;
+        background-attachment: fixed;
+    }
 
-    .Classe4 {
-        color: var(--cor2);
-        font-family: var(--fonte2);
-        font-size: 67px;
-        background-color: rgba(0, 0, 0, 0.932);
-        width: 800px;
-            }
+    #Imagem2 {
+        background-image: url('../imagens/background002.jpg');
+        background-size: cover;
+        background-attachment: fixed;
+    }
 
-    .Classe5 {
-        color: var(--cor1);
-        font-family: var(--fonte2);
-        font-size: 67px;
-        margin-bottom: 200px;
-        }
+    #Ultimo {
+        padding-bottom: 100px;
+    }
 
     footer {
         color: white;
