@@ -3,45 +3,53 @@
 * {
     margin: 0px;
     padding: 0px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-html, body {
-    height: 100vh;
-    width: 100vw;
 }
 
 body {
     background-image: url('Imagens/fundo-madeira.jpg');
+    width: 100vw;
+    height: 100vh;
+    position: relative;
 }
 
 main {
-    position: relative;
     height: 100vh;
+    background-size: cover;
 }
 
-section#Tela {
+.Tela {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    background-image: url('Imagens/frame-iphone.png');
     height: 627px;
     width: 311px;
-    background-image: url('Imagens/frame-iphone.png');
 }
 
-#home {
-    position: relative;
-    top: 80px;
-    left: 22px;
-    width: 268px;
-    height: 472px;
+#Home {
+    position: absolute;
+    top: 12.7%;
+    left: 6.6%;
+    height: 473px;
+    width: 269px;
 }
 
-#redes_sociais > a > img {
+.Redes_Sociais {
+    position: absolute;
+    top: 28%;
+    left: 96%;
+}
+
+.Redes_Sociais > a > img:hover {
+    border: 2px solid rgba(255, 255, 255, 0.473);
+    transition-duration: 0.2s;
+    transform: translate(-5px, -5px);
+}
+
+.Redes_Sociais > a > img {
     margin: 10px;
     width: 50px;
     height: 50px;
     border-radius: 50%;
-    text-align: left;
 }
