@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        ::placeholder {
+            text-align: center;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        body {
+            position: relative;
+        }
+
+        fieldset {
+            position: absolute;
+            left: 457px;
+            text-align: center;
+            width: 50vw;
+        }
+    </style>
+</head>
+<body>
+    <h1>Formulário</h1>
+    <fieldset>
+        <legend>Primeiro Formulário</legend>
+        <form action="sitequalquer.php" method="get">
+            <p>
+                <label for="iNome">Nome: </label>
+                <input type="text" name="Nome" id="iNome" placeholder="Usuário" minlength="3" max="15" required>
+            </p>
+            <p>
+                <label for="iEmail">E-mail: </label>
+                <input type="email" name="Email" id="iEmail" placeholder="usuario@gmail.com" minlength="15" max="35" required>
+            </p>
+            <p>
+                <label for="iTel">Telefone: </label>
+                <input type="tel" name="Tel" id="iTel" placeholder="(xx) xxxxx-xxxx" pattern="^\(\d{2}\)\d{4,5}\d{4}$" required>
+            </p>
+            <p>
+                <input type="submit" value="Enviar" size="20">
+                <input type="reset" value="Limpar">
+            </p>
+        </form>
+    </fieldset>
+</body>
+</html>
